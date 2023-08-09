@@ -1,7 +1,79 @@
-.password-generator{
-    display: flex ;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(54, 114, 226) ;
+}
+
+.control_pannnel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.control_pannnel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  color: #333333;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.password-generator {
+  margin-top: 20px;
+}
+
+.password-generator input[type="text"],
+.password-generator input[type="checkbox"] {
+
+  margin-bottom: 35px;
+}
+
+.password-generator input[type="checkbox"] {
+  margin-left: 20px;
+}
+
+.password-generator button {
+  padding: 10px 20px;
+  background: linear-gradient(to bottom, #555555, #333333);
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.password-generator button:hover {
+  background: linear-gradient(to bottom, #444444, #222222);
+}
+
+/* Additional styles to make it look amazing */
+
+.control_pannnel {
+  width: 400px;
+}
+
+.password-generator input[type="text"] {
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.password-generator label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.password-generator input[type="checkbox"] {
+  margin-left: 0;
+}
+
+.password-generator button {
+  font-weight: bold;
+  text-transform: uppercase;
 }
